@@ -1,0 +1,40 @@
+{
+  "name": "codepicnic",
+  "version": "0.0.1",
+  "description": "JavaScript Client for the CodePicnic's API",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codepicnic/codepicnic-javascript.git"
+  },
+  "keywords": [
+    "codepicnic",
+    "cloud",
+    "containers"
+  ],
+  "author": "Gustavo Leon <gustavo@codepicnic.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codepicnic/codepicnic-javascript/issues"
+  },
+  "homepage": "https://github.com/codepicnic/codepicnic-javascript#readme",
+  "dependencies": {
+    "es6-promise": "^3.1.2",
+    "lodash-compat": "^3.10.2",
+    "superagent": "^1.8.3",
+    "superagent-prefix": "0.0.2",
+    "superagent-promise-plugin": "^3.1.0",
+    "superagent-use": "0.0.1",
+    "underscore.string": "^3.3.4"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "gulp": "^3.9.1",
+    "gulp-uglify": "^1.5.3",
+    "mocha": "^2.4.5",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
