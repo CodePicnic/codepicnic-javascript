@@ -69,6 +69,16 @@ newConsole.save().then(function() {
 
 Run `npm test`
 
+## Changelog
+
+### 0.0.1
+
+* Initial version
+
+### 0.0.2
+
+* Fixing bug at creating a new `CodePicnic.Console` instance with underscored attributes.
+
 ## License
 
 MIT License. Copyright 2016 CodePicnic. http://github.com/CodePicnic
