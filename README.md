@@ -64,6 +64,7 @@ newConsole.save().then(function() {
 * `CodePicnic.Console#restart()` (returns a Promise): Restart the server attached to the console.
 * `CodePicnic.Console#exec(command1, command2, ...)` (returns a Promise): Execute commands inside the server attached to the console.
 * `CodePicnic.Console.all()` (returns a Promise): Return an array of consoles created by the user.
+* `CodePicnic.Console.get(containerName)` (returns a Promise): Return a single instance of `CodePicnic.Console` using its container name.
 
 ## Testing
 
@@ -78,6 +79,10 @@ Run `npm test`
 ### 0.0.2
 
 * Fixing bug at creating a new `CodePicnic.Console` instance with underscored attributes.
+
+### 0.0.3
+
+* New method: `CodePicnic.Console.get` to retrieve a console using its container name.
 
 ## License
 

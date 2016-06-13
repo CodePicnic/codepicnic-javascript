@@ -8,7 +8,7 @@ describe('CodePicnic JavaScript SDK', function() {
   var myConsole;
 
   before(function(done) {
-    CodePicnic.initialize('CLIENT_ID', 'CLIENT_SECRET').then(function() {
+    CodePicnic.initialize(process.env.CLIENT_ID, process.env.CLIENT_SECRET).then(function() {
       done();
     });
   });
@@ -37,6 +37,13 @@ describe('CodePicnic JavaScript SDK', function() {
   it('lists all consoles', function(done) {
     CodePicnic.Console.all().then(function(consoles) {
       assert(consoles.length > 0);
+      done();
+    });
+  });
+
+  it('gets a console', function(done) {
+    CodePicnic.Console.get(myConsole.get('containerName')).then(function(console) {
+      assert(console);
       done();
     });
   });

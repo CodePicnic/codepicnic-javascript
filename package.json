@@ -1,6 +1,6 @@
 {
   "name": "codepicnic",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "JavaScript Client for the CodePicnic's API",
   "main": "lib/index.js",
   "scripts": {
