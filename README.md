@@ -84,6 +84,10 @@ Run `npm test`
 
 * New method: `CodePicnic.Console.get` to retrieve a console using its container name.
 
+### 0.0.4
+
+* Fix mass assignment in `CodePicnic.Console#save`.
+
 ## License
 
 MIT License. Copyright 2016 CodePicnic. http://github.com/CodePicnic
