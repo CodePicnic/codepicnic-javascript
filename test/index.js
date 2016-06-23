@@ -10,7 +10,7 @@ describe('CodePicnic JavaScript SDK', function() {
   before(function(done) {
     CodePicnic.initialize(process.env.CLIENT_ID, process.env.CLIENT_SECRET).then(function() {
       done();
-    });
+    }, console.error.bind(console));
   });
 
   it('creates new console', function(done) {

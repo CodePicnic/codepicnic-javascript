@@ -72,21 +72,25 @@ Run `npm test`
 
 ## Changelog
 
-### 0.0.1
+### 0.0.5
 
-* Initial version
+* New feature: Read / write API endpoints with `CodePicnic.API_HOST` and `CodePicnic.OAUTH_HOST`.
 
-### 0.0.2
+### 0.0.4
 
-* Fixing bug at creating a new `CodePicnic.Console` instance with underscored attributes.
+* Fix mass assignment in `CodePicnic.Console#save`.
 
 ### 0.0.3
 
 * New method: `CodePicnic.Console.get` to retrieve a console using its container name.
 
-### 0.0.4
+### 0.0.2
 
-* Fix mass assignment in `CodePicnic.Console#save`.
+* Fixing bug at creating a new `CodePicnic.Console` instance with underscored attributes.
+
+### 0.0.1
+
+* Initial version.
 
 ## License
 
