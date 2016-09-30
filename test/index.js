@@ -1,7 +1,6 @@
 var mocha = require('mocha'),
-    assert = require('assert');
-
-var CodePicnic = require('../lib');
+    assert = require('assert'),
+    CodePicnic = require('../lib');
 
 describe('CodePicnic JavaScript SDK', function() {
   this.timeout(10000);

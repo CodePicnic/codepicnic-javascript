@@ -72,6 +72,11 @@ Run `npm test`
 
 ## Changelog
 
+### 0.0.6
+
+* Add `isHeadless` field in `CodePicnic.Console`.
+* New method: `CodePicnic.Console.uploadFile` to upload files to a console.
+
 ### 0.0.5
 
 * New feature: Read / write API endpoints with `CodePicnic.API_HOST` and `CodePicnic.OAUTH_HOST`.
