@@ -72,6 +72,10 @@ Run `npm test`
 
 ## Changelog
 
+### 0.0.7
+
+* Fix bug in handling response in `CodePicnic.Console.get`.
+
 ### 0.0.6
 
 * Add `isHeadless` field in `CodePicnic.Console`.
