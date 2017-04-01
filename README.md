@@ -72,6 +72,11 @@ Run `npm test`
 
 ## Changelog
 
+### 0.0.8
+
+* Bump `superagent` and `superagent-use` versions.
+* Refactor `CodePicnic.Console.uploadFile` and add test case.
+
 ### 0.0.7
 
 * Fix bug in handling response in `CodePicnic.Console.get`.

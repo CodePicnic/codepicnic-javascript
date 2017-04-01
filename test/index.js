@@ -27,8 +27,15 @@ describe('CodePicnic JavaScript SDK', function() {
   });
 
   it('executes commands inside a console', function(done) {
-    myConsole.exec('ls -la /').then(function(data) {
-      assert(Object.keys(data)[0] === 'ls -la /');
+    myConsole.exec('echo "Hello World"').then(function(data) {
+      assert(data['echo "Hello World"'] == 'Hello World\n');
+      done();
+    });
+  });
+
+  it('upload files to console', function(done) {
+    myConsole.uploadFile('./app/test.js', __dirname + '/index.js').then(function(data) {
+      assert(data.status === 'success');
       done();
     });
   });
